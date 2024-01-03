@@ -24,17 +24,16 @@ header {
     color:#ffff00;
     padding: 0 1rem;
     border: 2px solid #ffff00;
- 
 }
 
 header a {
     text-decoration: none;
 }
-
+/* Logo */
 h1 {
     font-size: 'Comfortaa', sans-serif;
     color: #ffff00;
-    
+    text-align: center;
 }
 
 ul {
@@ -43,7 +42,6 @@ ul {
 
 li a {
     color: #ffff00;
-   
 }
 /* Main Content */
 main {
