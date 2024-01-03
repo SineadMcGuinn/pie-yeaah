@@ -23,6 +23,10 @@ header {
     background-color: #284646;
     color:#ffff00;
 }
+
+h1 {
+    font-size: 'Comfortaa', sans-serif;
+}
 /* Main Content */
 main {
     background-color: black;
