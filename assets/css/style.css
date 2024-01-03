@@ -22,10 +22,21 @@ body {
 header {
     background-color: #284646;
     color:#ffff00;
+ 
+}
+
+header a {
+    text-decoration: none;
 }
 
 h1 {
     font-size: 'Comfortaa', sans-serif;
+    color: #ffff00;
+    
+}
+
+li a {
+    color: #ffff00;
 }
 /* Main Content */
 main {
