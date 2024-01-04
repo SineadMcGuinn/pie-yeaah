@@ -50,6 +50,7 @@ ul {
 li a {
     color: #ffff00;
     letter-spacing: 2px;
+    font-size: 120%;  
 }
 
 /* Drop down Toggle */
@@ -60,10 +61,13 @@ nav {
     left: 0;
     width: 100%;
     display: none; 
-}
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+} 
 
 /* Nav Toggle */
-#nav-toggle:checked~nav {
+    #nav-toggle:checked~nav {
     display: block;
 }
 /* Main Content */
