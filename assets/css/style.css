@@ -37,7 +37,7 @@ header a {
 }
 /* Logo */
 #logo {
-    font-size: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     color: #ffff00;
     text-align: center;
     letter-spacing: 3px;
