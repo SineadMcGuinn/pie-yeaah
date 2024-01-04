@@ -39,7 +39,6 @@ header a {
 #logo {
     font-family: 'Comfortaa', sans-serif;
     color: #ffff00;
-    text-align: center;
     letter-spacing: 3px;
 }
 /* Navigation Section */
@@ -72,13 +71,18 @@ nav {
 } 
 
 /* Nav Toggle */
-    #nav-toggle:checked~nav {
+#nav-toggle:checked~nav {
     display: block;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 .active {
     border-bottom: 1px solid #ffff00;
 }
+
 /* Main Content */
 main {
     background-color: black;
@@ -92,4 +96,26 @@ main {
 footer {
     background-color: #284646;
     color: #ffff00;
+}
+
+/* Media Query: Tablets & Larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding-left: 2rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
