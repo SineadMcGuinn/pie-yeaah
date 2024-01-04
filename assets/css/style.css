@@ -46,12 +46,22 @@ ul {
 li a {
     color: #ffff00;
 }
+/* Drop down Toggle */
+nav {
+    position: absolute;
+    background-color: #284646;
+    padding: 0 1rem;
+    left: 0;
+    width: 100%;
+    display: none; 
+}
 /* Main Content */
 main {
     background-color: black;
     color: #ffff00;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    border: 2px solid #ffff00;
 }
 
 /* Footer */
