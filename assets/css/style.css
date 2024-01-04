@@ -22,7 +22,7 @@ body {
 header {
     background-color: #284646;
     color:#ffff00;
-    padding: 0 1rem;
+    padding: 1rem;
     border: 2px solid #ffff00;
     position: absolute;
     z-index: 2;
