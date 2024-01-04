@@ -24,18 +24,21 @@ header {
     color:#ffff00;
     padding: 0 1rem;
     border: 2px solid #ffff00;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
 }
 
 header a {
     text-decoration: none;
 }
 /* Logo */
-h1 {
+#logo {
     font-size: 'Comfortaa', sans-serif;
     color: #ffff00;
     text-align: center;
 }
-
+/* Navigation Section */
 ul {
     list-style-type: none;
 }
