@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #284646;
+    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color:#ffff00;
     padding: 1rem;
     border: 2px solid #ffff00;
@@ -30,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-bottom: 0%;
 }
 
 header a {
@@ -40,6 +41,12 @@ header a {
     font-family: 'Comfortaa', sans-serif;
     color: #ffff00;
     letter-spacing: 3px;
+}
+
+#tagline {
+    font-family: 'Comfortaa', sans-serif;
+    color: #ffff00;
+    text-align: center;
 }
 /* Navigation Section */
 ul {
@@ -60,7 +67,7 @@ li {
 /* Drop down Toggle */
 nav {
     position: absolute;
-    background-color: #284646;
+    /*background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));*/
     padding: 0 1rem;
     left: 0;
     width: 100%;
@@ -85,16 +92,28 @@ nav {
 
 /* Main Content */
 main {
-    background-color: black;
+    /*background-color:#304646;*/
+    background-color: rgb(48, 21, 36);
     color: #ffff00;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     border: 2px solid #ffff00;
+    margin-top: 38px;
+    padding: 1rem;
 }
-
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    /*background-color: aquamarine;*/
+    opacity: .6;
+    position: relative;
+   
+   
+}
 /* Footer */
 footer {
-    background-color: #284646;
+    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color: #ffff00;
 }
 
@@ -112,10 +131,40 @@ footer {
     }
 
     li {
-        padding-left: 2rem;
+        padding-left: 3rem;
     }
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 320%;
+        line-height: 80px;
+    }
+   
+    header {
+        padding: 0.3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin: 0;
+    }
+    main {
+        margin-top: 130px;
+        padding: 1rem;
+    }
+
+    #tagline {
+        font-family: 'Comfortaa', sans-serif;
+        color: #ffff00;
+        text-align: center;
+        font-size: 200%;
+        
+    }
+    #hero {
+        height: 100vh;
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;   
     }
 }
