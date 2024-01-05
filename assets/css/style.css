@@ -47,6 +47,7 @@ header a {
     font-family: 'Comfortaa', sans-serif;
     color: #ffff00;
     text-align: center;
+    padding-top: 12px;
 }
 /* Navigation Section */
 ul {
@@ -115,19 +116,23 @@ main {
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color: #ffff00;
-    padding: 50px 0;
-    
 }
 
+#connect-social {
+    text-align: center;
+    padding-top: 10px;
+}
 #social-networks {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 0;
+}    
 
 #social-networks i {
     font-size: 100%;
+    padding: 5%;
 }
 
 /* Media Query: Tablets & Larger (768px and up) */
@@ -184,4 +189,5 @@ footer {
         margin-left: auto;
         margin-right: auto;   
     }
+
 }
