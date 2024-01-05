@@ -132,7 +132,9 @@ footer {
 
 #social-networks i {
     font-size: 100%;
-    padding: 5%;
+    padding: 5px;
+    background-color: rgb(78, 10,78);
+    border: 2px solid #ffff00;
 }
 
 /* Media Query: Tablets & Larger (768px and up) */
