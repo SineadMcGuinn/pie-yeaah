@@ -121,17 +121,13 @@ footer {
 
 #social-networks {
     display: flex;
+    text-align: center;
     justify-content: space-evenly;
     list-style-type: none;
-    margin-right: 0;
-    margin-left: 0;
-}
+    padding: 20px 0;
 
 #social-networks i {
     font-size: 100%;
-    text-align: center;
-    width: 100%;
-    
 }
 
 /* Media Query: Tablets & Larger (768px and up) */
