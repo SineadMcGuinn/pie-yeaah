@@ -67,7 +67,7 @@ li {
 /* Drop down Toggle */
 nav {
     position: absolute;
-    /*background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));*/
+    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     padding: 0 1rem;
     left: 0;
     width: 100%;
@@ -115,18 +115,23 @@ main {
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color: #ffff00;
+    padding: 50px 0;
+    
 }
 
 #social-networks {
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 #social-networks i {
-    font-size: 150%;
-    padding: 5%;
+    font-size: 100%;
+    text-align: center;
+    width: 100%;
+    
 }
 
 /* Media Query: Tablets & Larger (768px and up) */
@@ -164,6 +169,10 @@ footer {
     main {
         margin-top: 130px;
         padding: 1rem;
+    }
+
+    nav {
+        background-image: none;
     }
 
     #tagline {
