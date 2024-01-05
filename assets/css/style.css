@@ -117,6 +117,18 @@ footer {
     color: #ffff00;
 }
 
+#social-networks {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+}
+
 /* Media Query: Tablets & Larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
