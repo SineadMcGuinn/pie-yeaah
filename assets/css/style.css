@@ -121,7 +121,14 @@ main {
 
 #columns-about {
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    background-color: #ffffff;   
+}
+
+#columns-about2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
 }
 
 #col-one-about {
@@ -143,7 +150,8 @@ main {
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color: #ffff00;
-    margin-top: auto; 
+    margin-top: auto;
+    border-top: 2px solid #ffff00; 
 }    
    
 
@@ -227,12 +235,22 @@ footer {
     }
 
     #col-one-about {
-    width: 40%;
+    width: 50%;
     }
 
     #col-two-about {
-    width: 60%;
+    width: 50%;
     background-color: #ffffff;
     color: rgb(41, 40, 40);
     }    
+
+    #col-one-about2 {
+    width: 50%;
+    background-color: #ffffff;
+    color: rgb(41, 40, 40);
+    }
+    
+    #col-two-about2 {
+    width: 50%;
+    }
 }
