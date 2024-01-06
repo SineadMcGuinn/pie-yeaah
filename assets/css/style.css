@@ -121,20 +121,24 @@ main {
 
 #columns-about {
     display: flex;
-    flex-wrap: wrap;  
-    
+    flex-wrap: wrap;   
 }
 
 #col-one-about {
     padding: 10px;
+    background-color: #ffffff;
 }
 
 #col-two-about {
     background-color: #ffffff;
     color: rgb(41, 40, 40);
-    padding: 10px;
-    
+    padding: 10px;    
 }
+
+#pie-vid {
+    width: 100%;
+}
+
 /* Footer */
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
@@ -147,6 +151,7 @@ footer {
     text-align: center;
     padding-top: 10px;
 }
+
     #social-networks {
     display: flex;
     text-align: center;
