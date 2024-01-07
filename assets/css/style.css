@@ -175,7 +175,12 @@ padding-top: 30px;
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
     font-size: 150%;
-}    
+}
+
+#address {
+    padding-top: 10px;
+    text-align: center;
+}
 
 /* Footer */
 footer {
