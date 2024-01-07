@@ -284,3 +284,10 @@ footer {
         column-count: 3;
     }
 }
+
+/* Media Query: Laptops and Desktops (992px and up) */
+@media screen and (min-width: 992px) {
+    #photos {
+        column-count:4;
+    }
+}
