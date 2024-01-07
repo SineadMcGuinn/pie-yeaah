@@ -148,6 +148,9 @@ main {
 #pie-vid {
     width: 100%;
 }
+.center {
+    text-align: center;
+}
 
 #gallery {
     background-color: rgb(48, 21, 36);
@@ -178,7 +181,6 @@ padding-top: 30px;
 }
 
 #address {
-    padding-top: 10px;
     text-align: center;
 }
 
