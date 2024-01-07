@@ -153,12 +153,18 @@ main {
     width: 100vw;
     text-align: center;
     padding: 10px;
-    font-size: 120%;
+}
+
+#gallery-heading {
+    font-size: 150%;
+    font-family: 'Comfortaa', sans-serif;
+    letter-spacing: 2px;
 }
 
 #photos img {
     width: 100%;
 }
+
 /* Footer */
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
