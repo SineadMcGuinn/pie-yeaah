@@ -129,6 +129,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
+    color: rgb(41, 40, 40);
+    padding: 10px;
 }
 
 #col-one-about {
@@ -146,6 +148,17 @@ main {
     width: 100%;
 }
 
+#gallery {
+    background-color: rgb(48, 21, 36);
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+}
+
+#photos img {
+    width: 100%;
+}
 /* Footer */
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
@@ -160,7 +173,7 @@ footer {
     padding-top: 10px;
 }
 
-    #social-networks {
+#social-networks {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
