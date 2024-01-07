@@ -166,6 +166,12 @@ main {
 #photos img {
     width: 100%;
 }
+/* Contact Page */
+#contact-heading {
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 150%;
+}    
 
 /* Footer */
 footer {
@@ -285,6 +291,7 @@ footer {
     #photos {
         column-count: 3;
     }
+
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
