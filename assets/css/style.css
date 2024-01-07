@@ -76,12 +76,7 @@ nav {
     left: 0;
     width: 100%;
     display: none; 
-<<<<<<< HEAD
-=======
-   
-    
->>>>>>> 0bf736b2c66ba47ea5c3a4b13ee2aef7bd231021
-} 
+}
 
 /* Nav Toggle */
 #nav-toggle:checked~nav {
@@ -230,7 +225,7 @@ footer {
     }
 
     #logo {
-        font-size: 320%;
+        font-size: 300%;
         line-height: 80px;
     }
    
