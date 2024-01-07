@@ -23,7 +23,7 @@ header {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color:#ffff00;
     padding: 1rem;
-    /*border: 2px solid #ffff00;*/
+    border-bottom: 2px solid #ffff00;
     position: fixed;
     z-index: 2;
     width: 100%;
