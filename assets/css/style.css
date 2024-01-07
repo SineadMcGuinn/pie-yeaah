@@ -90,6 +90,11 @@ nav {
     display: none;
 }
 
+.nav-toggle-label{
+    font-size: 1.5rem;
+    padding-bottom: 4px;
+}
+
 .active {
     border-bottom: 1px solid #ffff00;
 }
