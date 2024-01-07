@@ -279,4 +279,8 @@ footer {
     #col-two-about2 {
     width: 50%;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
