@@ -110,7 +110,7 @@ main {
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
     /*background-color: aquamarine;*/
     opacity: .6;
-    position: relative;
+    position: relative;  
 }
 
 #about {
