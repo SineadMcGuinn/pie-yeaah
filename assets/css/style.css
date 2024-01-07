@@ -102,9 +102,8 @@ main {
     color: #ffff00;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 38px;
+    margin-top: 45px;
     padding: 1rem;
-    
 }
 #hero {
     height: 600px;
@@ -167,6 +166,11 @@ main {
     width: 100%;
 }
 /* Contact Page */
+
+#contact-container {
+padding-top: 30px;
+}
+
 #contact-heading {
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
