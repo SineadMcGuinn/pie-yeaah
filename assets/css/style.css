@@ -194,6 +194,13 @@ footer {
     border-style:inset;
 }
 
+/* Media Query: larger or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+    column-count: 2;
+    }
+}
+
 /* Media Query: Tablets & Larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
