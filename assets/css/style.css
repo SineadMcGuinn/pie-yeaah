@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
-    color:#ffff00;
+    color: #ffff00;
     padding: 1rem;
     border-bottom: 2px solid #ffff00;
     position: fixed;
@@ -75,8 +75,8 @@ nav {
     padding: 0 1rem;
     left: 0;
     width: 100%;
-    display: none; 
-    margin-top:35px;
+    display: none;
+    margin-top: 35px;
 }
 
 /* Nav Toggle */
@@ -88,7 +88,7 @@ nav {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 1.5rem;
     padding-bottom: 4px;
 }
@@ -106,13 +106,14 @@ main {
     margin-top: 45px;
     padding: 1rem;
 }
+
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
     /*background-color: aquamarine;*/
     opacity: .6;
-    position: relative;  
+    position: relative;
 }
 
 #about {
@@ -124,7 +125,7 @@ main {
 #columns-about {
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffffff;   
+    background-color: #ffffff;
 }
 
 #columns-about2 {
@@ -143,12 +144,13 @@ main {
 #col-two-about {
     background-color: #ffffff;
     color: rgb(41, 40, 40);
-    padding: 10px;    
+    padding: 10px;
 }
 
 #pie-vid {
     width: 100%;
 }
+
 .center {
     text-align: center;
 }
@@ -169,10 +171,11 @@ main {
 #photos img {
     width: 100%;
 }
+
 /* Contact Page */
 
 #contact-container {
-padding-top: 30px;
+    padding-top: 30px;
 }
 
 #contact-heading {
@@ -185,14 +188,22 @@ padding-top: 30px;
     text-align: center;
 }
 
+table {
+    border-spacing: 10px;
+}
+
+th td{
+    text-align: right;
+    padding: 4px;
+}
+
 /* Footer */
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color: #ffff00;
     margin-top: auto;
-    border-top: 2px solid #ffff00; 
-}    
-   
+    border-top: 2px solid #ffff00;
+}
 
 #connect-social {
     text-align: center;
@@ -205,24 +216,25 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 10px 0;
-}    
+}
 
 #social-networks i {
     font-size: 100%;
     padding: 5px;
     border: 2px solid #ffff00;
-    border-style:inset;
+    border-style: inset;
 }
 
 /* Media Query: larger or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
-    column-count: 2;
+        column-count: 2;
     }
 }
 
 /* Media Query: Tablets & Larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -246,13 +258,13 @@ footer {
         font-size: 300%;
         line-height: 80px;
     }
-   
+
     header {
         padding: 0.3rem;
         padding-left: 3rem;
         padding-right: 3rem;
         margin: 0;
-        height:80px;
+        height: 80px;
     }
 
     main {
@@ -271,33 +283,34 @@ footer {
         color: #ffff00;
         text-align: center;
         font-size: 200%;
-        
+
     }
+
     #hero {
         height: 50vh;
         max-width: 1800px;
         margin-left: auto;
-        margin-right: auto;   
+        margin-right: auto;
     }
 
     #col-one-about {
-    width: 50%;
+        width: 50%;
     }
 
     #col-two-about {
-    width: 50%;
-    background-color: #ffffff;
-    color: rgb(41, 40, 40);
-    }    
+        width: 50%;
+        background-color: #ffffff;
+        color: rgb(41, 40, 40);
+    }
 
     #col-one-about2 {
-    width: 50%;
-    background-color: #ffffff;
-    color: rgb(41, 40, 40);
+        width: 50%;
+        background-color: #ffffff;
+        color: rgb(41, 40, 40);
     }
-    
+
     #col-two-about2 {
-    width: 50%;
+        width: 50%;
     }
 
     #photos {
