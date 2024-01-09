@@ -188,6 +188,10 @@ main {
     text-align: center;
 }
 
+#opening-hours {
+    padding-top: 30px;
+}
+
 table {
     border-spacing: 10px;
 }
