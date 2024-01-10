@@ -106,6 +106,10 @@ main {
     margin-top: 45px;
     padding: 1rem;
 }
+#main-contact {
+    background-color: white;
+    padding: 0;
+}
 
 #hero {
     height: 600px;
@@ -175,7 +179,13 @@ main {
 /* Contact Page */
 
 #contact-container {
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    background-color: white;
+    color: rgb(48, 21, 36);
+    width: 100%;
+    margin: 0; 
 }
 
 #contact-heading {
@@ -185,16 +195,26 @@ main {
 }
 
 #address {
-    text-align: center;
+    text-align: center; /*nb: refactor this and others with center to the class for it*/
 }
 
+.span-icon {
+    color: rgb(173, 94, 107);
+}
+
+
 #opening-hours {
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 30px;
+    background-color: #ffffff;
+    font-weight: bold;
 }
 
 table {
     border-spacing: 10px;
+    /*border: 2px solid yellow;*/
+    color: rgb(134, 65, 77);
+    background-color: white;
 }
 
 th td{
