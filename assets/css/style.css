@@ -194,10 +194,6 @@ main {
     font-size: 150%;
 }
 
-#address {
-    text-align: center; /*nb: refactor this and others with center to the class for it*/
-}
-
 .span-icon {
     color: rgb(173, 94, 107);
 }
