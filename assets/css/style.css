@@ -235,12 +235,21 @@ th td{
 }
 
 #form-build {
-    padding-left: 10px;
+    padding: 30px;
+
  
 }  
 .text-input {
-    margin: 5px 0 20px 0;
+    margin: 4px 0 20px 0;
+    /*width: 220px;*/
+    height: 28px;
 }
+
+input::placeholder {
+    font-weight: bold;
+    color: rgb(48, 21, 36);
+    font-size: 1rem;
+} 
 
 /* Footer */
 footer {
