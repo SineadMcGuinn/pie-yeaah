@@ -16,6 +16,7 @@ body {
     /* Generic Project Styles */
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    max-width: 1800px;
 }
 
 /* Header */
@@ -31,6 +32,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 0%;
+    max-width: 1800px;
 }
 
 header a {
