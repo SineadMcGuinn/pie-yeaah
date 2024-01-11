@@ -235,14 +235,13 @@ th td{
 }
 
 #form-build {
-    padding: 30px;
-
- 
+    padding: 30px;  
 }  
+
 .text-input {
     margin: 4px 0 20px 0;
     /*width: 220px;*/
-    height: 28px;
+    height: 28px;   
 }
 
 input::placeholder {
@@ -250,6 +249,11 @@ input::placeholder {
     color: rgb(48, 21, 36);
     font-size: 1rem;
 } 
+
+.message-box {
+   height: 200px;
+}
+
 
 /* Footer */
 footer {
