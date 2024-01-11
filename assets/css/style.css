@@ -179,6 +179,8 @@ main {
 /* Contact Page */
 
 #contact-container {
+    background: url("../images/berry-pie-slice.webp") no-repeat center center/cover;
+    opacity: .5;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 40px;
