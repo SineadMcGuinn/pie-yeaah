@@ -180,7 +180,7 @@ main {
 
 #contact-container {
     background: url("../images/berry-pie-slice.webp") no-repeat center center/cover;
-    opacity: .5;
+    height: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 40px;
@@ -199,7 +199,6 @@ main {
 .span-icon {
     color: rgb(173, 94, 107);
 }
-
 
 #opening-hours {
     padding-top: 10px;
@@ -257,7 +256,6 @@ input::placeholder {
    height: 200px;
 }
 
-
 /* Footer */
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
@@ -291,6 +289,12 @@ footer {
     #photos {
         column-count: 2;
     }
+
+    /* Contact Page photo */
+    #contact-container {
+    height: 200px;
+    }
+        
 }
 
 /* Media Query: Tablets & Larger (768px and up) */
@@ -378,6 +382,10 @@ footer {
         column-count: 3;
     }
 
+/* Contact Page photo */
+    #contact-container {
+        height: 300px;
+    }
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
