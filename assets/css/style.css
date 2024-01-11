@@ -290,8 +290,6 @@ footer {
 #social-networks i {
     font-size: 100%;
     padding: 5px;
-    border: 2px solid #ffff00;
-    border-style: inset;
 }
 
 /* Media Query: larger or landscape phones (576px and up) */
