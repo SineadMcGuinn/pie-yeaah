@@ -17,6 +17,8 @@ body {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Header */
@@ -31,7 +33,9 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 0%;
-    max-width: 1800px;
+    left:0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 header a {
@@ -101,7 +105,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: rgb(48, 21, 36);
+    /*background-color: rgb(48, 21, 36);*/
     color: #ffff00;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -181,7 +185,7 @@ main {
 /* Contact Page */
 
 #contact-container {
-    background: url("../images/berry-pie-slice.webp") no-repeat center center/cover;
+    background: url("../images/berry-pie-slice-mobile.jpg") no-repeat center center/cover;
     height: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -270,21 +274,30 @@ input::placeholder {
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     color: #ffff00;
-    margin-top: auto; 
+    margin-top: auto;
+    width: 100%; 
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #connect-social {
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
     color: #ffffff;   
 }
 
+hr {
+    color: #ffffff;
+}
 #social-networks {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 #social-networks i {
