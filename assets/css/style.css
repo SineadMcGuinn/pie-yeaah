@@ -201,6 +201,10 @@ main {
 
 #address-phone-email {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
+    opacity: .5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #opening-hours {
