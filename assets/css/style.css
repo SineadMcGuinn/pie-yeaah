@@ -16,9 +16,7 @@ body {
     /* Generic Project Styles */
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    max-width: 1800px;
-    margin-right: auto;
-    margin-left: auto;
+    
 }
 
 /* Header */
@@ -111,6 +109,9 @@ main {
     flex: 1 0 auto;
     margin-top: 45px;
     padding: 1rem;
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #main-contact {
@@ -276,11 +277,11 @@ footer {
     color: #ffff00;
     margin-top: auto;
     width: 100%; 
-    left: 0;
+    height: 130px;
     bottom: 0;
+    left: 0;
+    position: ;
     
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #connect-social {
