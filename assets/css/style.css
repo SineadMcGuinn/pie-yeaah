@@ -222,6 +222,8 @@ main {
     font-weight: bold;
     color: #ffffff;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th td{
