@@ -190,7 +190,8 @@ main {
     color: #ffffff;
     padding-top: 0;
     margin-top: 0;
-} */      
+} */   
+   
 #contact-photo {
     background: url("../images/berry-pie-slice-mobile.jpg") no-repeat center center/cover;
     height: 100px;
@@ -202,9 +203,10 @@ main {
     margin-top: 40px;
     background-color: white;
     color: rgb(48, 21, 36);
-    /*width: 100%;*/
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 #contact-heading {
@@ -245,11 +247,8 @@ th td{
 
 #contact-form {
     width: 100%;
-    height: 700px;
-    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     margin: auto; 
     padding-top: 20px;
-    /*max-width: 350px;*/
 }
 
 #contact-heading {
@@ -262,17 +261,27 @@ th td{
 
 #form-build {
     padding: 30px;
- 
+    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
+    text-align: center;
+    margin: auto;
 }  
-
+#form-build label {
+    display: inline-block;
+}
+ 
 #form-list {
     display: block;
+    text-align: right;
 }
-.text-input {
-    margin: 4px 0 20px 0;
-    /*width: 220px;*/
-    height: 28px;  
+
+input {
+   width: 300px;
+   height: 28px;    
 }
+
+ li {
+    text-align: left;
+ }
 
 input::placeholder {
     color: rgb(48, 21, 36);
@@ -280,14 +289,22 @@ input::placeholder {
 
 .message-box {
    height: 200px;
-   width: 200px;
+   width: 300px;
+
 }
 
 label {
     color: #ffffff;
     font-weight: bold;
+    text-align: right;
 }
 
+/* Menu Page */
+#background  {
+    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
+    width: 100vw;
+    height: 100vh;
+}
 /* Footer */
 footer {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
@@ -384,7 +401,6 @@ hr {
         color: #ffff00;
         text-align: center;
         font-size: 200%;
-
     }
 
     #hero {
@@ -432,6 +448,7 @@ hr {
         margin: 0;
     }
 
+    
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
