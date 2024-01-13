@@ -193,8 +193,9 @@ main {
 } */   
 
 #contact-photo {
-    background: url("../images/berry-pie-slice-mobile.jpg") no-repeat center center/cover;
+    background: url("../images/berry-pie-slice.webp") no-repeat center center/cover;
     height: 100px;
+   
 }
 
 #contact-container {
@@ -437,18 +438,25 @@ hr {
 /* Contact Page photo */
     #contact-photo {
         height: 300px;
+       
+        margin: 20px;
     }
 
     #address-phone-email-hours {
         width: 50%;
+        height: 800px;
+        font-size: large;
     }
-
+   
     #contact-form {
         width: 50%;
-        margin: 0;
+        padding-top: 0;
     }
 
-    
+    #form-build {
+        width: 600px;
+        height: 800px;
+    }
 }
 
 /* Media Query: Laptops and Desktops (992px and up) */
