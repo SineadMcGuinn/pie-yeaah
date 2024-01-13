@@ -191,8 +191,6 @@ main {
 }
 
 #contact-container {
-   
-    
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 40px;
@@ -216,7 +214,7 @@ main {
 
 #address-phone-email-hours {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
-    opacity: .5;
+    opacity: .7;
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
