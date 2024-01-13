@@ -255,6 +255,7 @@ th td{
 
 #form-build {
     padding: 30px;
+ 
 }  
 
 #form-list {
@@ -365,7 +366,6 @@ hr {
 
     main {
         margin-top: 80px;
-        padding: 1rem;
         min-height: 100vh;
         margin-bottom: 0;
     }
