@@ -267,9 +267,7 @@ th td{
 }
 
 input::placeholder {
-    font-weight: bold;
     color: rgb(48, 21, 36);
-    font-size: 1rem;
 } 
 
 .message-box {
