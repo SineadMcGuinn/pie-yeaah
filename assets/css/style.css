@@ -197,7 +197,6 @@ main {
     background-color: white;
     color: rgb(48, 21, 36);
     /*width: 100%;*/
-    margin: 0; 
     display: flex;
     flex-wrap: wrap;
 }
@@ -218,6 +217,7 @@ main {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
+    margin: auto;
 }
 
 #opening-hours {
