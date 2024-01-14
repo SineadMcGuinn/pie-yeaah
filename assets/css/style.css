@@ -198,6 +198,10 @@ main {
    
 }
 
+.deep-purple {
+    color: rgb(48, 21, 36);
+}
+
 #contact-container {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -213,7 +217,8 @@ main {
 #contact-heading {
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
-    font-size: 150%;
+    
+    color:rgb(48, 21, 36);
 }
 
 .span-icon {
@@ -243,7 +248,7 @@ main {
 
 th td{
     text-align: right;
-    padding: 4px;
+    padding: 2px;
 }
 
 #contact-form {
@@ -292,7 +297,6 @@ input::placeholder {
 .message-box {
    height: 200px;
    width: 200px;
-
 }
 
 label {
