@@ -109,8 +109,8 @@ main {
     flex: 1 0 auto;
     margin-top: 45px;
     max-width: 1800px;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #main-contact {
@@ -247,7 +247,7 @@ th td{
 }
 
 #contact-form {
-    width: 100%;
+    width: 50%;
     margin: auto; 
     padding-top: 20px;
 }
@@ -260,12 +260,15 @@ th td{
  color: #ffff00;
 }
 
+
 #form-build {
     padding: 30px;
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
     text-align: center;
     margin: auto;
-}  
+   
+}
+ 
 #form-build label {
     display: inline-block;
 }
@@ -301,10 +304,11 @@ label {
 }
 
 /* Menu Page */
-#background  {
+#savoury  {
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
-    width: 100vw;
-    height: 100vh;
+    color: #ffff00;
+    margin-top:80px;
+   
 }
 /* Footer */
 footer {
@@ -345,6 +349,8 @@ hr {
         column-count: 2;
     }
 
+    
+   
     /* Contact Page photo */
     #contact-photo {
     height: 200px;
@@ -392,7 +398,15 @@ hr {
         min-height: 100vh;
         margin-bottom: 0;
         margin: auto;
+       
     }
+
+     #main-contact {
+            margin-top: 80px;
+            min-height: 100vh;
+            margin-bottom: 0;
+            margin: auto;
+        }
 
     nav {
         background-image: none;
@@ -465,6 +479,7 @@ hr {
     .message-box {
         text-align: center;
     }
+
 /* Media Query: Laptops and Desktops (992px and up) */
 @media screen and (min-width: 992px) {
     #photos {
