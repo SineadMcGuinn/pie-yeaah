@@ -247,9 +247,10 @@ th td{
 }
 
 #contact-form {
-    width: 50%;
+   
     margin: auto; 
     padding-top: 20px;
+    min-width: 250px;
 }
 
 #contact-heading {
