@@ -193,7 +193,7 @@ main {
 } */   
 
 #contact-photo {
-    background: url("../images/berry-pie-slice.webp") no-repeat center center/cover;
+    background: url("../images/lemon-pie.webp") no-repeat center center/cover;
     height: 100px;
    
 }
@@ -355,7 +355,7 @@ hr {
     #photos {
         column-count: 2;
     }
-}
+
     
    
     /* Contact Page photo */
@@ -413,7 +413,7 @@ hr {
             min-height: 100vh;
             margin-bottom: 0;
             margin: auto;
-        }
+    }
 
     nav {
         background-image: none;
@@ -456,6 +456,8 @@ hr {
     #photos {
         column-count: 3;
     }
+
+}
 
 /* Contact Page photo */
     #contact-photo {
