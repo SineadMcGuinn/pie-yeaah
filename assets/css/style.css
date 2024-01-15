@@ -107,7 +107,7 @@ main {
     color: #ffff00;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 45px;
+    margin-top: 50px;
     max-width: 1800px;
     margin-right: 10px;
     margin-left: 10px;
@@ -171,12 +171,13 @@ main {
 }
 
 /* Contact Page */
-/*#contact-start {
+#contact-start {
     background-color: rgb(48, 21, 36);
     color: #ffffff;
     padding-top: 0;
-    margin-top: 0;
-} */   
+    margin-top: 80px;
+    padding: 30px;
+}    
 
 #contact-photo {
     background: url("../images/lemon-pie.webp") no-repeat center center/cover;
@@ -389,7 +390,6 @@ hr {
         min-height: 100vh;
         margin-bottom: 0;
         margin: auto;
-       
     }
 
     nav {
