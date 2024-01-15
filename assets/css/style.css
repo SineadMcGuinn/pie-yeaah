@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
-    color: #ffffff;
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -111,13 +111,7 @@ main {
     max-width: 1800px;
     margin-right: 10px;
     margin-left: 10px;
-}
-
-#main-contact {
-    background-color: white;
-    padding: 0;
-    margin-top: 80px;
-    color: black;
+    background-color: rgb(48, 21, 36);
 }
 
 #hero {
@@ -129,33 +123,25 @@ main {
 }
 
 #about {
-    background-color: white;
-    color: rgb(41, 40, 40);
     padding: 5px;
 }
 
 #columns-about {
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffffff;
 }
 
 #columns-about2 {
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffffff;
-    color: rgb(41, 40, 40);
     padding: 10px;
 }
 
 #col-one-about {
     padding: 10px;
-    background-color: #ffffff;
 }
 
 #col-two-about {
-    background-color: #ffffff;
-    color: rgb(41, 40, 40);
     padding: 10px;
 }
 
@@ -194,8 +180,7 @@ main {
 
 #contact-photo {
     background: url("../images/lemon-pie.webp") no-repeat center center/cover;
-    height: 100px;
-   
+    height: 100px; 
 }
 
 .white {
@@ -206,8 +191,6 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 40px;
-    background-color: white;
-    color: rgb(48, 21, 36);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -217,8 +200,6 @@ main {
 #contact-heading {
     text-align: center;
     font-family: 'Comfortaa', sans-serif;
-    
-    color:rgb(48, 21, 36);
 }
 
 .span-icon {
