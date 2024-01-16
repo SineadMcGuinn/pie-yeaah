@@ -156,14 +156,15 @@ main {
 #gallery {
     background-color: rgb(48, 21, 36);
     width: 100vw;
-    text-align: center;
     padding: 10px;
 }
 
 #gallery-heading {
-    font-size: 150%;
+    font-size: 200%;
     font-family: 'Comfortaa', sans-serif;
     letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
 }
 
 #photos img {
@@ -174,14 +175,6 @@ main {
 #contact-start {
     background-color: rgb(48, 21, 36);
     color: #ffffff;
-<<<<<<< HEAD
-    padding-top: 30px;
-    margin-top: 60px;
-=======
-    padding-top: 0;
-    margin-top: 80px;
-    padding: 30px;
->>>>>>> 95132df03f3acf4f82920332ce14d28c2ee48cc7
 }    
 
 #contact-photo {
@@ -314,9 +307,7 @@ footer {
     padding: 10px;
     color: #ffffff;
     letter-spacing: 2px;   
-}
-
-hr {
+} {
     color: #ffffff;
 }
 #social-networks {
