@@ -171,12 +171,12 @@ main {
 }
 
 /* Contact Page */
-/*#contact-start {
+#contact-start {
     background-color: rgb(48, 21, 36);
     color: #ffffff;
-    padding-top: 0;
-    margin-top: 0;
-} */   
+    padding-top: 30px;
+    margin-top: 60px;
+}    
 
 #contact-photo {
     background: url("../images/lemon-pie.webp") no-repeat center center/cover;
