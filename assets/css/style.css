@@ -118,7 +118,6 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
-    opacity: .6;
     position: relative;
 }
 
@@ -199,7 +198,7 @@ main {
 #contact-container {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -257,8 +256,7 @@ th td{
 
 #form-build {
     padding: 30px;
-    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
-    text-align: center;
+    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));  
 }
  
 #form-build label {
