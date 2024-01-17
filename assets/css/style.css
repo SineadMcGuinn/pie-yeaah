@@ -198,7 +198,7 @@ main {
 #contact-container {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 0;
+    margin-top: 90px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -255,7 +255,7 @@ th td{
 
 
 #form-build {
-    padding: 30px;
+    padding: 35px;
     background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));  
 }
  
@@ -271,7 +271,8 @@ th td{
 input {
    width: 200px;
    height: 28px;
-   padding: 5px;    
+   padding: 5px;
+   font-family: sans-serif;
 }
 
  li {
@@ -282,10 +283,12 @@ input::placeholder {
     color: rgb(48, 21, 36);
 } 
 
-.message-box {
+#message-box {
    height: 200px;
    width: 200px;
    padding: 5px; 
+   font-family: sans-serif;
+   font-size: 14px;
 }
 
 label {
@@ -333,13 +336,24 @@ footer {
     padding: 5px;
 }
 
-/* Media Query: phones (under 686px) */
+/* Media Query:(787px) */
 @media screen and (max-width: 787px) {
     #contact-form {
         max-width: 300px;
     }
 }
 
+/* Media Query: larger or landscape phones (300px and up) */
+@media screen and (min-width: 300px) {
+    #form-build {
+    padding: 40px, 20px, 40px, 60px; 
+    }
+
+    form li {
+    padding-left: 18px;
+    }
+    
+}    
 /* Media Query: larger or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -435,7 +449,7 @@ footer {
         column-count: 3;
     }
 
-}
+
 
 /* Contact Page photo */
     #contact-photo {
@@ -458,9 +472,16 @@ footer {
 
     #form-build {
         width: 100%;
-        height: 800px;    
+        height: 800px;
+        padding: 40px;            
     }
+}
 
+@media screen and (min-width: 788px) {
+    form li {
+        padding-left: 40px;
+    }
+}
 /* Media Query: Laptops and Desktops (992px and up) */
 @media screen and (min-width: 992px) {
     #photos {
