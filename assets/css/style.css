@@ -49,9 +49,18 @@ header a {
 
 #tagline {
     font-family: 'Comfortaa', sans-serif;
+    background-color:rgb(189, 114, 127);
     color: #ffff00;
     text-align: center;
     padding-top: 12px;
+}
+
+#tag1 {
+    font-size: 60px;
+}
+
+#tag2 {
+    font-size: 30px;
 }
 
 /* Navigation Section */
@@ -109,29 +118,22 @@ main {
     flex: 1 0 auto;
     margin-top: 50px;
     max-width: 1800px;
-    margin-right: 10px;
-    margin-left: 10px;
     background-color: black;
 }
 
 #hero {
-    height: 600px;
+    height: 350px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
     position: relative;
 }
 
-#menu-pic {
-    height: 200px;
-    width: 80%;
-    /*background: url("../images/hero-image.jpg") no-repeat center;*/
-    opacity: .6;
-    margin: auto; 
-}
-
-#about {
+.tagline {
     padding: 5px;
-    background-image: linear-gradient(rgb(78, 10, 78), rgb(189, 114, 127));
+    background-color:rgb(189, 114, 127);
+    margin: auto;
+    font-family: 'comfortaa', sans-serif;
+    letter-spacing: 2px; 
 }
 
 #columns-about {
@@ -338,7 +340,7 @@ footer {
     }
 }
 
-/* Media Query: larger or landscape phones (300px and up) */
+/* Media Query: (300px and up) */
 @media screen and (min-width: 300px) {
     #form-build {
     padding: 40px, 20px, 40px, 60px; 
@@ -355,7 +357,9 @@ footer {
         column-count: 2;
     }
 
-    
+    #hero {
+        height: 450px;
+    }
    
     /* Contact Page photo */
     #contact-photo {
@@ -389,6 +393,7 @@ footer {
     #logo {
         font-size: 300%;
         line-height: 80px;
+        font-weight: bold;
     }
 
     header {
@@ -400,7 +405,7 @@ footer {
     }
 
     main {
-        margin-top: 90px;
+        margin-top: 80px;
         min-height: 100vh;
         margin-bottom: 0;
         margin-left: auto;
@@ -418,11 +423,14 @@ footer {
         font-size: 200%;
     }
 
+    #tag1 {
+        font-size: 200px;
+    }
+
     #hero {
-        height: 50vh;
+        height: 500px;
         max-width: 1800px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 0;
     }
 
     #col-one-about {
