@@ -400,10 +400,11 @@ footer {
     }
 
     main {
-        margin-top: 80px;
+        margin-top: 90px;
         min-height: 100vh;
         margin-bottom: 0;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav {
@@ -449,7 +450,7 @@ footer {
 /* Contact Page photo */
     #contact-photo {
         height: 300px;
-        margin: 20px;
+        width: 350px;
     }
 
     #address-phone-email-hours {
